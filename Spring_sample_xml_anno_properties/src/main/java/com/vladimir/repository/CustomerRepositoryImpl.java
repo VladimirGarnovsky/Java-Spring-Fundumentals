@@ -1,0 +1,27 @@
+package com.vladimir.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.vladimir.model.Customer;
+
+public class CustomerRepositoryImpl implements CustomerRepository {
+	List<Customer> customers = new ArrayList<Customer>();
+	
+	private String dpUsername;
+
+	public void setDpUsername(String dpUsername) {
+		this.dpUsername = dpUsername;
+		
+	}
+
+	public List<Customer> findAll(){
+		Customer customer = new Customer();
+		customer.setName("Ziomek 25");
+		
+		customers.add(customer);
+		
+		System.out.println("From app.properties:"+dpUsername);
+		return customers;
+	}
+}
