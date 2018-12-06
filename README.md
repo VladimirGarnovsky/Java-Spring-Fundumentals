@@ -8,5 +8,9 @@ This repository includes the basics of Java Spring wiring, using Maven. Featurin
  
  - Injecting properties using XML,Annotations and Java configs.
  
- If you've found this useful, feel free to say thanks.
+ 
+ Feel free to use this examples as reference if you forget those fundamentals of Spring. You can copy and change these as you like. If you've found this useful feel free to say thanks :)
+ 
+ All the best
+ Vladimir G.
  
